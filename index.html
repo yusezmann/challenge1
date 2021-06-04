@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Challenge 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://wallpapercave.com/wp/wp3997629.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Top Views Locations</h1>
+            <p>More than 200 locations</p>
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Fugiat natus ipsam voluptate ad veritatis qui.
+            </h3>
+            <button class="btn info share">SHARE</button>
+            <button class="btn info exp">EXPLORE</button>
+            <button class="btn grey open-button" onclick="openForm()"><i class="c fa fa-chevron-down"></i></button>
+            <div class="form-popup" id="myForm">
+                <form action="/" class="form-container">
+                  <h1>Top Views Locations</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius veritatis cumque laudantium error consectetur voluptatum ducimus illum molestiae incidunt dolorum unde inventore commodi at architecto fugiat expedita, consequuntur necessitatibus blanditiis!</p>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://wallpapercave.com/wp/wp3997629.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Top Views Locations</h1>
+            <p>More than 200 locations</p>
+            <button class="btn info share">SHARE</button>
+            <button class="btn info exp">EXPLORE</button>
+            <button class="btn grey open-button" onclick="bukaForm()"><i class="c fa fa-chevron-down"></i></button>
+            <div class="form-popup" id="Form">
+                <form action="/" class="form-container">
+                  <h1>Top Eastern Road Trip</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius veritatis cumque laudantium error consectetur voluptatum ducimus illum molestiae incidunt dolorum unde inventore commodi at architecto fugiat expedita, consequuntur necessitatibus blanditiis!</p>
+                  <button type="button" class="btn cancel" onclick="tutupForm()">Close</button>
+                </form>
+            </div>
+        </div>
+        <div class="card">
+            <div class="profile">
+                <img src="https://th.bing.com/th/id/OIP.AyVv06KRxDIdsjyaJeD34QAAAA?w=178&h=181&c=7&o=5&pid=1.7" alt="Avatar" class="avatar">
+                <div>
+                <h3>Charles</h3>
+                <p>20 mins, ago</p>
+                </div>
+            </div>
+            <img src="https://wallpapercave.com/wp/wp3997629.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Top Views Locations</h1>
+            <p>More than 200 locations</p>
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Fugiat natus ipsam voluptate ad veritatis qui.
+            </h3>
+        </div>
+        <div class="card">
+            <img src="https://wallpapercave.com/wp/wp3997629.jpg" alt="Denim Jeans" style="width:100%">
+            <div class="icons">
+                <i class="a fa fa-heart"></i>
+                <i class="b fa fa-bookmark"></i>
+                <i class="c fa fa-map-marker"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        function bukaForm() {
+          document.getElementById("Form").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        function tutupForm() {
+          document.getElementById("Form").style.display = "none";
+        }
+        </script>
+</body>
+</html>

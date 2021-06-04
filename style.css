@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: start;
+    font-family: arial;    
+    border-radius: 6px;
+    
+  }
+
+.card h1{
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.card p{
+    margin-left: 25px;
+    font-size: 14px;
+    color: grey;
+    margin-top: -15px;
+}
+
+.card h3{
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.info {
+    color: dodgerblue;
+}
+.exp{
+    margin-left: -45px;
+    margin-right: 45;
+}
+.grey{
+    margin-left: 35px;
+}
+
+.profile{
+    margin: 6px 6px 8px 10px;
+    display: flex;
+}
+
+.profile .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile p{
+    margin-top: -15px;
+    font-size: 11px;
+}
+
+.icons{
+    margin: 6px 6px 6px 6px;
+    margin-left: 210px;
+    
+}
+
+.icons .a{
+    margin-right: 10px;
+}
+.icons .b{
+    margin-right: 10px;
+}
+.icons .c{
+    margin-right: 10px;
+}
+
+.open-button {
+    /* color: white; */
+    /* padding: 16px 20px; */
+    border: none;
+    /* cursor: pointer; */
+    /* opacity: 0.8; */
+    position: fixed;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    /* bottom: 0;
+    right: 15px; */
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    justify-content: center;
+}
+
+.form-popup p{
+    text-align: left;
+    padding-top: 6px;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    display: block;
+}
